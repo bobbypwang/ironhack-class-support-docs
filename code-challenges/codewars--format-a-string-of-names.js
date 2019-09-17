@@ -12,6 +12,6 @@ function list(names) {
         str += names[i]['name'] + ', '
       }
     }
-    console.log(str.slice(0, str.length-2))
-    return str.slice(0, str.length-2)
+    console.log(str.slice(0, str.length-3))
+    return str.slice(0, str.length-3)
   }
